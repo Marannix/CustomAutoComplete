@@ -1,14 +1,73 @@
 <resources>
     <string name="app_name">CustomAutoComplete</string>
     <string name="action_settings">Settings</string>
-    <string-array name="countries_array">
-        <item>Afghanistan</item>
-        <item>Albania</item>
-        <item>Algeria</item>
-        <item>American Samoa</item>
-        <item>Andorra</item>
-        <item>Angola</item>
-        <item>Anguilla</item>
-        <item>Antarctica</item>
+    <string-array name="cities_array">
+        <item>Aberdeen</item>
+        <item>Albans</item>
+        <item>Armagh</item>
+        <item>Bangor</item>
+        <item>Bath</item>
+        <item>Belfast</item>
+        <item>Birmingham</item>
+        <item>Bradford</item>
+        <item>Brighton</item>
+        <item>Bristol</item>
+        <item>Cambridge</item>
+        <item>Canterbury</item>
+        <item>Cardiff</item>
+        <item>Carlisle</item>
+        <item>Chester</item>
+        <item>Chichester</item>
+        <item>Coventry</item>
+        <item>St Davids</item>
+        <item>Derby</item>
+        <item>Dundee</item>
+        <item>Durham</item>
+        <item>Edinburgh</item>
+        <item>Ely</item>
+        <item>Exeter</item>
+        <item>Glasgow</item>
+        <item>Gloucester</item>
+        <item>Hereford</item>
+        <item>Hull</item>
+        <item>Inverness</item>
+        <item>Lancaster</item>
+        <item>Leeds</item>
+        <item>Leicester</item>
+        <item>Lichfield</item>
+        <item>Lincoln</item>
+        <item>Lisburn</item>
+        <item>Liverpool</item>
+        <item>London</item>
+        <item>Londonderry</item>
+        <item>Manchester</item>
+        <item>Newcastle upon Tyne</item>
+        <item>Newport</item>
+        <item>Newry</item>
+        <item>Norwich</item>
+        <item>Nottingham</item>
+        <item>Oxford</item>
+        <item>Peterborough</item>
+        <item>Plymouth</item>
+        <item>Portsmouth</item>
+        <item>Preston</item>
+        <item>Ripon</item>
+        <item>Salford</item>
+        <item>Salisbury</item>
+        <item>Sheffield</item>
+        <item>Southampton</item>
+        <item>Stirling</item>
+        <item>Stoke-on-Trent</item>
+        <item>Sunderland</item>
+        <item>Swansea</item>
+        <item>Truro</item>
+        <item>Wakefield</item>
+        <item>Wells</item>
+        <item>Westminster</item>
+        <item>Winchester</item>
+        <item>Wolverhampton</item>
+        <item>Worcester</item>
+        <item>York</item>
     </string-array>
+
 </resources>

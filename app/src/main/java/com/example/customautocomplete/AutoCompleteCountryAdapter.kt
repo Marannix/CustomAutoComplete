@@ -4,7 +4,6 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
 import android.widget.Filter
 import android.widget.Filterable
 import androidx.recyclerview.widget.RecyclerView
@@ -37,7 +36,7 @@ class AutoCompleteCountryAdapter : RecyclerView.Adapter<AutoCompleteCountryAdapt
             override fun performFiltering(charSequence: CharSequence?): FilterResults {
                 val charString = charSequence.toString()
                 cityListFiltered = if (charString.isEmpty()) {
-                    cities
+                    emptyList()
                 } else {
                     val filteredList = ArrayList<String>()
                     for (row in cities) {
@@ -45,7 +44,6 @@ class AutoCompleteCountryAdapter : RecyclerView.Adapter<AutoCompleteCountryAdapt
                             filteredList.add(row)
                         }
                     }
-
                     filteredList
                 }
 

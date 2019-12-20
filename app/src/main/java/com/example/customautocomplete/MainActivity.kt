@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun createList() {
-        city = resources.getStringArray(R.array.countries_array).toList()
+        city = resources.getStringArray(R.array.cities_array).toList()
     }
 
     private fun setAdapter() {

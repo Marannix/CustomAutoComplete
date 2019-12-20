@@ -5,13 +5,15 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="4dp">
+        android:padding="12dp">
 
     <TextView
             android:id="@+id/cityName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="stuff"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
